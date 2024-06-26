@@ -1,9 +1,10 @@
-name: Generate Snake
+name: CI
 
 on:
-  schedule:
-    - cron: "0 0 * * *"  # Se ejecuta a medianoche todos los días
-  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   build:
@@ -12,6 +13,8 @@ jobs:
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate Snake Animation
         uses: Platane/snk@master
@@ -32,4 +35,3 @@ jobs:
         run: git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
