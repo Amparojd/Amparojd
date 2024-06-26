@@ -4,6 +4,5 @@
   <h3>42 Madrid Student</h3>
   <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/7d484dc9-68a9-4ee6-a767-aea59035c12d" width="800" />
 </div>
-
 ![GitHub Snake dark](github-snake-dark.svg#gh-dark-mode-only)
 ![GitHub Snake light](github-snake.svg#gh-light-mode-only)
