@@ -7,7 +7,7 @@
 
 <br>
 
-<img src="image.png" alt="portada" width="640">
+<img src="image1.png" alt="portada" width="640">
 
 <br><br>
 
